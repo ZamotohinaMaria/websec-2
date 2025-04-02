@@ -56,5 +56,5 @@ app.get("/api/search", cors(corsOptions), async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`🚀 Сервер работает: http://localhost:${PORT}`);
+    console.log(`Сервер работает по адресу: http://localhost:${PORT}`);
 });
